@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.1.20)  20 MAR 2023 20:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.1.20)  21 MAR 2023 14:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -400,7 +400,32 @@ LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 7
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (./KECReport.aux)
+) (./KECReport.aux
+
+LaTeX Warning: Label `figSample1' multiply defined.
+
+
+LaTeX Warning: Label `figSample1' multiply defined.
+
+
+LaTeX Warning: Label `figSample1' multiply defined.
+
+
+LaTeX Warning: Label `figSample1' multiply defined.
+
+
+LaTeX Warning: Label `figSample1' multiply defined.
+
+
+LaTeX Warning: Label `figSample1' multiply defined.
+
+
+LaTeX Warning: Label `figSample1' multiply defined.
+
+
+LaTeX Warning: Label `figSample1' multiply defined.
+
+)
 \openout1 = `KECReport.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
@@ -510,7 +535,7 @@ nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 73.
-<images/logo.png, id=104, 102.3825pt x 102.3825pt>
+<images/logo.png, id=132, 102.3825pt x 102.3825pt>
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
 Package pdftex.def Info: images/logo.png  used on input line 75.
@@ -544,23 +569,23 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] [4
 
 ]
-(./KECReport.toc)
+(./KECReport.toc [5
+
+])
 \tf@toc=\write4
 \openout4 = `KECReport.toc'.
 
- [5
-
-] (./KECReport.lof)
+ [6] (./KECReport.lof)
 \tf@lof=\write5
 \openout5 = `KECReport.lof'.
 
- [6
+ [7
 
 ] (./KECReport.lot)
 \tf@lot=\write6
 \openout6 = `KECReport.lot'.
 
- [7
+ [8
 
 ]
 Chapter 1.
@@ -568,59 +593,122 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.146 
-       [1
+l.146 ..., meis delenit concludaturque ea nec.\par
+                                                   [1
 
 ] [2] [3] [4]
 Chapter 2.
-<images/sampleImage1.jpg, id=202, 192.72pt x 144.54pt>
-File: images/sampleImage1.jpg Graphic file (type jpg)
-<use images/sampleImage1.jpg>
-Package pdftex.def Info: images/sampleImage1.jpg  used on input line 178.
-(pdftex.def)             Requested size: 216.81pt x 162.60707pt.
 [5
 
- <./images/sampleImage1.jpg>] [6] [7] [8]
+]
 Chapter 3.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-99.
+<images/bloakchainDiagram.png, id=261, 513.92pt x 293.095pt>
+File: images/bloakchainDiagram.png Graphic file (type png)
+<use images/bloakchainDiagram.png>
+Package pdftex.def Info: images/bloakchainDiagram.png  used on input line 177.
+(pdftex.def)             Requested size: 397.48499pt x 226.69456pt.
+[6
+
+ <./images/bloakchainDiagram.png>]
+<images/Block Diagram of blockchain.png, id=267, 513.92pt x 151.56625pt>
+File: images/Block Diagram of blockchain.png Graphic file (type png)
+<use images/Block Diagram of blockchain.png>
+Package pdftex.def Info: images/Block Diagram of blockchain.png  used on input 
+line 202.
+(pdftex.def)             Requested size: 296.30743pt x 87.38812pt.
+ [7 <./images/Block Diagram of blockchain.png>]
+<images/usecaseDiagram.png, id=273, 513.92pt x 468.75125pt>
+File: images/usecaseDiagram.png Graphic file (type png)
+<use images/usecaseDiagram.png>
+Package pdftex.def Info: images/usecaseDiagram.png  used on input line 227.
+(pdftex.def)             Requested size: 397.48499pt x 362.55605pt.
+ [8]
+<images/0-level data flow diagram.png, id=278, 513.92pt x 244.915pt>
+File: images/0-level data flow diagram.png Graphic file (type png)
+<use images/0-level data flow diagram.png>
+Package pdftex.def Info: images/0-level data flow diagram.png  used on input li
+ne 241.
+(pdftex.def)             Requested size: 397.48499pt x 189.4297pt.
+ [9 <./images/usecaseDiagram.png>]
+<images/1-leveldfd.png, id=284, 513.92pt x 283.0575pt>
+File: images/1-leveldfd.png Graphic file (type png)
+<use images/1-leveldfd.png>
+Package pdftex.def Info: images/1-leveldfd.png  used on input line 252.
+(pdftex.def)             Requested size: 397.48499pt x 218.93105pt.
+<images/activityDiagramForRegister.png, id=285, 290.08376pt x 513.92pt>
+File: images/activityDiagramForRegister.png Graphic file (type png)
+<use images/activityDiagramForRegister.png>
+Package pdftex.def Info: images/activityDiagramForRegister.png  used on input l
+ine 263.
+(pdftex.def)             Requested size: 310.76122pt x 550.58687pt.
+ [10 <./images/0-level data flow diagram.png> <./images/1-levelDFD.png>]
+<images/Activity diagram for voting.png, id=290, 238.8925pt x 513.92pt>
+File: images/Activity diagram for voting.png Graphic file (type png)
+<use images/Activity diagram for voting.png>
+Package pdftex.def Info: images/Activity diagram for voting.png  used on input 
+line 271.
+(pdftex.def)             Requested size: 238.49121pt x 513.05612pt.
+ [11 <./images/activityDiagramForRegister.png>]
+<images/sdlc.jpg, id=295, 513.92pt x 385.44pt>
+File: images/sdlc.jpg Graphic file (type jpg)
+<use images/sdlc.jpg>
+Package pdftex.def Info: images/sdlc.jpg  used on input line 281.
+(pdftex.def)             Requested size: 252.94499pt x 189.70828pt.
+ [12 <./images/Activity diagram for voting.png>]
+<images/Incremental Model from 1 to N no of steps.jpg, id=301, 513.92pt x 385.4
+4pt>
+File: images/Incremental Model from 1 to N no of steps.jpg Graphic file (type j
+pg)
+<use images/Incremental Model from 1 to N no of steps.jpg>
+Package pdftex.def Info: images/Incremental Model from 1 to N no of steps.jpg  
+used on input line 292.
+(pdftex.def)             Requested size: 361.34999pt x 271.01772pt.
+ [13 <./images/sdlc.jpg>]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 3
+01.
+
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [9
-
-] [10] [11]
+) [14 <./images/Incremental Model from 1 to N no of steps.jpg>] [15] [16] [17]
 Chapter 4.
-[12
+[18
 
-] [13] [14]
+] [19] [20]
 Chapter 5.
-[15
+[21
+
+] [22] [23]
+Chapter 6.
+[24
 
 ]
-Chapter 6.
+Chapter 7.
 
-LaTeX Warning: Citation `Li2014' on page 16 undefined on input line 464.
+LaTeX Warning: Citation `Li2014' on page 25 undefined on input line 586.
 
 
-LaTeX Warning: Citation `Yasir2014' on page 16 undefined on input line 464.
+LaTeX Warning: Citation `Yasir2014' on page 25 undefined on input line 586.
 
-(./KECReport.bbl) [16
+(./KECReport.bbl) [25
 
-] [17
+] [26
 
 ] (./KECReport.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `KECReport.out' has not changed.
-(rerunfilecheck)             Checksum: ED25EA231AFFE190A60FC0E3E8D2B936;3296.
+(rerunfilecheck)             Checksum: 87445BB87F23E0F1B49ECFFF66A72510;4220.
  ) 
 Here is how much of TeX's memory you used:
- 16501 strings out of 480204
- 315855 string characters out of 5895010
- 594060 words of memory out of 5000000
- 34164 multiletter control sequences out of 15000+600000
- 491351 words of font info for 72 fonts, out of 8000000 for 9000
+ 16591 strings out of 480204
+ 318362 string characters out of 5895010
+ 596127 words of memory out of 5000000
+ 34221 multiletter control sequences out of 15000+600000
+ 491361 words of font info for 72 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  75i,11n,82p,1016b,500s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -634,10 +722,10 @@ m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on KECReport.pdf (26 pages, 205084 bytes).
+Output written on KECReport.pdf (36 pages, 406350 bytes).
 PDF statistics:
- 371 PDF objects out of 1000 (max. 8388607)
- 314 compressed objects within 4 object streams
- 84 named destinations out of 1000 (max. 500000)
- 211 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 480 PDF objects out of 1000 (max. 8388607)
+ 402 compressed objects within 5 object streams
+ 109 named destinations out of 1000 (max. 500000)
+ 307 words of extra memory for PDF output out of 10000 (max. 10000000)
 

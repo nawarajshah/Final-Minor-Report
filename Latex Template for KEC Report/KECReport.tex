@@ -135,8 +135,7 @@ Second para of Acknowledgment. Sed veri aeque persecuti ut. Ut accusam mediocrem
 
 \chapter{Introduction}
 \section{Background}\label{sec:bkgrnd}%label your section if you require to refer them somewhere else in your document.
-Background of your Project. Lorem ipsum dolor sit  amet, diam posidonium efficiantur pri ex, qui aliquip convenire an. Vim falli vivendum ei. Ei per congue sanctus pericula. Mei id tollit mentitum corrumpit. Ad paulo quaerendum eam, meis delenit concludaturque ea nec.\par
-Sit id duis explicari, no pro quod nisl, erat nominati in his. Te choro efficiendi per. Vix alia munere an, ea aperiam expetenda ius. Id simul forensibus est, mei tacimates imperdiet incorrupte at, minim hendrerit ne per. Ex meliore verterem efficiendi vis.
+Voting has always been an integral part of a democracy.  Voting is the ultimate right that can be utilized in a Democracy.  There  have been witnessed so many voting methods in our history, from holding up hands in an assembly in the ancient Greek era to paper ballots and electronic voting machines.
 
 Ea his munere torquatos, quidam essent luptatum cu pro. Ei duo scaevola electram. Vidit percipitur ut vim, ne his solet prodesset inciderint. Cum facilisi sententiae at, vis noster electram contentiones cu. Nec at eius novum diceret.Lorem ipsum dolor sit  amet, diam posidonium efficiantur pri ex, qui aliquip convenire an. Vim falli vivendum ei. Ei per congue sanctus pericula. Mei id tollit mentitum corrumpit. Ad paulo quaerendum eam, meis delenit concludaturque ea nec.\par
 Sit id duis explicari, no pro quod nisl, erat nominati in his. Te choro efficiendi per. Vix alia munere an, ea aperiam expetenda ius. Id simul forensibus est, mei tacimates imperdiet incorrupte at, minim hendrerit ne per. Ex meliore verterem efficiendi vis.
@@ -167,21 +166,144 @@ Lorem ipsum dolor sit  amet, diam posidonium efficiantur pri ex, qui aliquip con
 Sit id duis explicari, no pro quod nisl, erat nominati in his. Te choro efficiendi per. Vix alia munere an, ea aperiam expetenda ius. Id simul forensibus est, mei tacimates imperdiet incorrupte at, minim hendrerit ne per. Ex meliore verterem efficiendi vis.
 
 Ea his munere torquatos, quidam essent luptatum cu pro. Ei duo scaevola electram. Vidit percipitur ut vim, ne his solet prodesset inciderint. Cum facilisi sententiae at, vis noster electram contentiones cu. Nec at eius novum diceret.
-\chapter{Figures and Tables}
-\section{Section for Sample Figure}
-Partem graece mucius est ei, usu ex facilisis dissentiet, probo prodesset scriptorem ius ea. Ne mei essent splendide, case tritani duo ei. Eam ne stet feugiat albucius. Ne diam dicant viderer eam, at pri minim vivendo periculis, in vix commodo invidunt. In eum omnis vocent aperiam. Sit prima atqui splendide ad, singulis recusabo quaerendum at his, enim eligendi forensibus ea eam.
-
-Sed veri aeque persecuti ut. Ut accusam mediocrem accusamus eos, quis clita probatus ex his. Mea oratio deleniti interesset at. Odio melius antiopam eu his, ut nec tantas maiestatis ullamcorper. Ut numquam reprimique cum.
+\chapter{LITERATURE REVIEW}
+\chapter{METHODOLOGY}
+\section{Working Mechanism}
+\subsection{Block Diagram}
+A block diagram is a drawing illustration of a system whose parts are illustrated by blocks. These blocks are joined by lines to display the relationship between the blocks. Block diagrams are used to visualize the functionality of a system.
 
 \begin{figure}[tbh] % tbh means top, bottom or here (priority: left to right)
 \begin{center}
-	\includegraphics[width = 3in]{images/sampleImage1.jpg}
-	\caption{The Sample Image One} %figure name
+	\includegraphics[width = 5.5in]{images/bloakchainDiagram.png}
+	\caption{Block Diagram of Voting System} %figure name
 	\label{figSample1} % for referencing
 \end{center}
 \end{figure}
 
-\subsection{Referring Figure}
+\subsubsection{Login}
+Firstly, user provide voters verified college email address and password to login for both admin and users.
+
+\subsubsection{OTP Verification}
+The system send OTP code to the verified user email address and that code is enter by the user and verified themself.
+
+\subsubsection{Choose Candidate}
+After users logged in to the system they enter into the select candidate page. There the user cast their vote to the respective candidate and again entering an updated OTP that he receives on his email address confirm the final process of voting. At third those information at the pool was packed into a Blockchain node which was created with the Keccak -256 Algorithm. At last node is finally verified with permanent node.With these four different steps the Blockchain system is carried out then proceeds to further steps.
+
+\subsubsection{Tally at Database}
+The results are then tally at Database where the individual votes were recorded for individual candidate.The admin can control over the database for security purpose and initial monitoring of results but admin can’t modify it on database.
+
+\subsubsection{Release Result}
+Then at last the tally votes were shown in results which is done after all the process completion.
+
+\subsection{Block diagram of blockchain}
+
+\begin{figure}[tbh] % tbh means top, bottom or here (priority: left to right)
+\begin{center}
+	\includegraphics[width = 4.1in]{images/Block Diagram of blockchain.png}
+	\caption{Block Diagram of blockchain} %figure name
+	\label{figSample1} % for referencing
+\end{center}
+\end{figure}
+
+\subsubsection{Nonce}
+Nonce is the value used to calculate a block hash that meets a certain requirement.( Eg:- Start with a certain number of Zeroes).
+
+\subsubsection{Voting Data}
+In this part of the block data is stored. Here the data about the voter count for candidate, whether the voter has already voted or not.\par 
+In this part of the block data is stored. Here data is divided to 2 parts one for the voter and one for the candidate. In the voter part the details about the voter are stored. It stores the data whether the voter has voted or not and which address the voter has voted for. In the candidate part it stores the name, address and total vote count of the candidate.
+
+\subsubsection{Previous Hash}
+It is the hash of the block before it.It is used to link to the previous block.
+
+\subsubsection{Current Hash}
+It is the hash ( .i.e.Hash is a unique fixed sized output for an input generated through a one way function called hash function) of the current data.
+
+\section{System Models}
+\subsection{Use Case Diagram}
+A use case diagram is a way to summarize the details of a system and the users within that system. It is generally shown as a graphic depiction of interactions among different elements in a system. Use Case Diagrams will specify the events in a system and how those events flow. However, Use Case Diagram does not describe how those events are implemented.
+
+\begin{figure}[H] % tbh means top, bottom or here (priority: left to right)
+\begin{center}
+	\includegraphics[width = 5.5in]{images/usecaseDiagram.png}
+	\caption{Use Case Diagram of blockchain-based voting system} %figure name
+	\label{figSample1} % for referencing
+\end{center}
+\end{figure}
+
+\subsection{Data Flow Diagrams (DFD)}
+In Software engineering, DFD(data flow diagram) can be drawn to represent the system of different levels of abstraction. Higher-level DFDs are partitioned into low levels-hacking more information and functional elements. Levels in DFD are numbered 0, 1, 2, or beyond. Here, we will see 2 levels in the data flow diagram: 0-level DFD and 1-level DFD.
+
+\subsubsection{0-level DFD}
+It is also known as a context diagram. It is designed to be an abstraction view, showing the system as a single process related to external entities. It represents the entire system as a single bubble with input and output data indicated by incoming/outgoing arrows.
+
+\begin{figure}[tbh] % tbh means top, bottom or here (priority: left to right)
+\begin{center}
+	\includegraphics[width = 5.5in]{images/0-level data flow diagram.png}
+	\caption{0-level data flow diagram} %figure name
+	\label{figSample1} % for referencing
+\end{center}
+\end{figure}
+
+\subsubsection{1-level DFD}
+In 1-level DFD, the context diagram is decomposed into multiple bubbles/processes. In this level, this report highlight the system's main functions and break down the high-level process of 0-level DFD into subprocesses.
+
+\begin{figure}[tbh] % tbh means top, bottom or here (priority: left to right)
+\begin{center}
+	\includegraphics[width = 5.5in]{images/1-leveldfd.png}
+	\caption{1-level data flow diagram} %figure name
+	\label{figSample1} % for referencing
+\end{center}
+\end{figure}
+
+\subsection{Activity diagram}
+An activity diagram is a flowchart representing the flow from one activity to another. The activity can be described as an operation of the system.
+
+\begin{figure}[H] % tbh means top, bottom or here (priority: left to right)
+\begin{center}
+	\includegraphics[width = 4.3in]{images/activityDiagramForRegister.png}
+	\caption{Activity diagram for Register} %figure name
+	\label{figSample1} % for referencing
+\end{center}
+\end{figure}
+
+\begin{figure}[H] % tbh means top, bottom or here (priority: left to right)
+\begin{center}
+	\includegraphics[width = 3.3in]{images/Activity diagram for voting.png}
+	\caption{Activity diagram for voting} %figure name
+	\label{figSample1} % for referencing
+\end{center}
+\end{figure}
+
+\section{SDLC}
+
+\begin{figure}[H] % tbh means top, bottom or here (priority: left to right)
+\begin{center}
+	\includegraphics[width = 3.5in]{images/sdlc.jpg}
+	\caption{Software Development Life Cycle Diagram} %figure name
+	\label{figSample1} % for referencing
+\end{center}
+\end{figure}
+
+\subsubsection{Incremental Model}
+The incremental model is a process of software development where requirements are divided into multiple standalone modules of the software development cycle. The incremental process model is also known as the Successive version model. This model emphasizes the full phase dynamic growing software. Since the E-voting software of our project is also a kind of dynamic software that needs the continuous development and full phase growth of different features like login portals, Conformation Portals, Voting Selection Portals, etc.
+
+\begin{figure}[H] % tbh means top, bottom or here (priority: left to right)
+\begin{center}
+	\includegraphics[width = 5in]{images/Incremental Model from 1 to N no of steps.jpg}
+	\caption{Incremental Model from 1 to N no of steps} %figure name
+	\label{figSample1} % for referencing
+\end{center}
+\end{figure}
+
+Incremental Models include the different building phases. Like Build-1, Build-2, Build-3……to……Build-N phases, where build ‘N’ is the defined possible steps.
+
+\begin{itemize}
+\item Build-1: Login
+\item Build-2: API
+\item Build-3: Solidity Contracts
+\item Build-4: Acquire Voting from Voters
+\end{itemize}
+
 This is an example where Figure \ref{figSample1} of page \pageref{figSample1} is referenced. Detracto suavitate id per, no est putent accusata quaestio, purto quaeque oporteat ei sea. Id eam erat affert, ex has summo inimicus partiendo. Option aliquam imperdiet ius ex. Efficiendi omittantur in mea, id usu tacimates rationibus. Ei accusamus dissentias vix, eos aperiam percipit id.
 
 Mea cu vitae noluisse. Tation eirmod iracundia sea no, duo no aliquando elaboraret. Qui ut legere mucius, dolore efficiendi definitionem quo ex. Usu te falli similique posidonium, eum eu dicat aeterno phaedrum, te paulo deleniti ius. Pro te aliquam platonem, eos ea dolore phaedrum. Graece honestatis sit at, nec id ubique legendos.

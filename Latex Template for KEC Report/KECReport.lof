@@ -2,7 +2,16 @@
 \noaddvspace 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The Sample Image One\relax }}{5}{figure.caption.9}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Block Diagram of Voting System\relax }}{6}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Block Diagram of blockchain\relax }}{7}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Use Case Diagram of blockchain-based voting system\relax }}{9}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces 0-level data flow diagram\relax }}{10}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces 1-level data flow diagram\relax }}{10}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Activity diagram for Register\relax }}{11}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Activity diagram for voting\relax }}{12}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Software Development Life Cycle Diagram\relax }}{13}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Incremental Model from 1 to N no of steps\relax }}{14}{figure.caption.17}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
